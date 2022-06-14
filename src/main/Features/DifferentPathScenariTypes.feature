@@ -28,7 +28,7 @@ Feature: Insurance calculation with different path
 
     Examples:
     |PreCondition                     |Inception Date        |are you owner of the car|the car is|brand|Model  |Body Type|Fuel Type|Engine Power   |Engine              |First Registration Date|Owner Registration Date|BirthDate|
-    #|The car will still be registered |12072022              |No                      |new       |AUDI |audi tt|Coupe    |Benzin   |145 kW / 197 PS|AUDI TT 40 TFSI     | 062005                |N/A                    |10061988|
-    #|The car is already insured       |12072022              |Yes                     |used      |AUDI |audi tt|Coupe    |Benzin   |145 kW / 197 PS|AUDI TT 40 TFSI     | 062005                |072009                 |10061995|
+    |The car will still be registered |12072022              |No                      |new       |AUDI |audi tt|Coupe    |Benzin   |145 kW / 197 PS|AUDI TT 40 TFSI     | 062005                |N/A                    |10061988|
+    |The car is already insured       |12072022              |Yes                     |used      |AUDI |audi tt|Coupe    |Benzin   |145 kW / 197 PS|AUDI TT 40 TFSI     | 062005                |072009                 |10061995|
     |The car is already insured       |20062022              |Yes                     |new       |BMW  |5er    |Kombi    |Diesel   |294 kW / 400 PS|M550D TOURING XDRIVE| 042022                |N/A                    |10102000|
 

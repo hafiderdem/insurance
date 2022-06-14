@@ -189,4 +189,13 @@ public class stepDefinition {
     }
 
 
+
+    // NEGATIVE TESTS STEP DEFINITION
+
+    @Then("Verify continue button is not enabled")
+    public void verify_continue_button_is_not_enabled() {
+        selectPrecondition.continueButtonIsEnabled();
+    }
+
+
 }

@@ -1,5 +1,6 @@
 package pages;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -50,6 +51,9 @@ public class _01_selectPrecondition {
         browserUtils.waitFor(2);
     }
 
+    public void continueButtonIsEnabled(){
+        Assert.assertFalse(continueButton.isEnabled());
+    }
 
 
 }
